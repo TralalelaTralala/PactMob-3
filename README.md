@@ -4,11 +4,12 @@ Flutter-застосунок для конвертації між градуса
 
 ## Запуск на Android-емуляторі
 
-powershell
+```powershell
 
 flutter pub get
 flutter devices
 flutter run -d <ID_емулятора>
+```
 
 
 Спочатку запустіть віртуальний телефон в Android Studio через **Device Manager**. Команда `flutter devices` покаже його ID, наприклад `emulator-5554`.
